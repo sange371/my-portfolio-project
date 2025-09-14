@@ -1,0 +1,142 @@
+body{
+    text-align:center;
+    margin:190px auto;
+    padding:10px;
+    background-color:rgb(255, 255, 255);
+    color:black;
+    font-family: "Gill Sans",sans-serif;
+}
+.navbar{
+    background-color: white !important;
+}
+ul{
+    list-style: none;
+}
+
+h3{
+    padding-bottom: 30px;
+}
+h1{
+    font-size:80px;
+    font-family: serif;
+    font-style: italic;
+
+}
+h4{
+    font-size:18px;
+    font-weight: light;
+   
+}
+img{
+    height:430px;
+    width:430px;
+   
+}
+p{
+    padding-top:20px;
+    color:gray;
+}
+h2{
+    padding-top:15px;
+   
+}
+.spacer{
+    margin-bottom:10px;
+    margin-top: 10px;;
+    background:#f0e8fa;
+    color:black;
+    height:400px;
+    width:100%;
+    margin:0 auto;
+    border-radius: 15px;
+    line-height: 1.5;
+    
+
+    
+}
+a{
+    text-decoration:none;
+    color:white;
+    margin-top:20px;
+
+
+}
+
+.btn{
+    padding:15px !important;
+    margin-top:30px !important;
+    width:160px !important;
+    background: #d296f8 !important;
+    border:1px  solid white  !important;
+    font-size:18px;
+}
+.btn:hover{
+    background: rgb(227, 189, 247) !important;
+    color:rgb(106, 106, 106) !important;
+    border:1px solid white !important;
+    
+}
+.inquiry{
+    background: #e2d4f9;
+    display:flex;
+    flex-direction: column;
+    height:190px;
+    margin-top:180px;
+    color:black !important;
+    border-radius:10px;
+    
+}
+.button{
+    margin-left:90px;
+}
+.about{
+    font-size:60px;
+}
+.image{
+    height:420px;
+    width:380px;
+    border:2px solid #d296f8 !important;
+}
+.form-label{
+    display:flex !important;
+    justify-content:flex-start !important;
+    flex-direction: column !important;
+    
+}
+.form-control{
+    width:600px;
+    margin:0 auto;
+    padding:10px;
+    border:1px solid rgb(170, 170, 170);
+
+}
+.button-spacer{
+    background:#d296f8 !important;
+    border:1px solid whitesmoke !important;
+    
+}
+.button-spacer:hover{
+    background:rgb(226, 196, 247) !important;
+    border:1px solid white !important;
+    
+}
+.contact-me{
+    border:1px solid rgb(171, 168, 168);
+    border-radius:10px;
+    padding:20px;
+    width:890px;
+    margin:0 auto;
+    background: #f0e8fa;
+    color:black;
+}
+.contact{
+    text-decoration: underline !important;
+    
+}
+.nav-link{
+    color:black !important;
+}
+
+.nav-link:hover{
+    color:#d296f8 !important;
+}
