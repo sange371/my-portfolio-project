@@ -17,7 +17,7 @@ h3{
     padding-bottom: 30px;
 }
 h1{
-    font-size:80px;
+    font-size:60px;
     font-family: serif;
     font-style: italic;
 
@@ -62,18 +62,22 @@ a{
 
 }
 
+.email{
+    color:black !important;
+    font-size:26px;
+}
 .btn{
     padding:15px !important;
     margin-top:30px !important;
     width:160px !important;
     background: #d296f8 !important;
-    border:1px  solid white  !important;
+    border:2px  solid rgb(253, 253, 253)  !important;
     font-size:18px;
 }
 .btn:hover{
-    background: rgb(227, 189, 247) !important;
-    color:rgb(106, 106, 106) !important;
+    background: rgb(246, 163, 255) !important;
     border:1px solid white !important;
+    
     
 }
 .inquiry{
@@ -116,8 +120,9 @@ a{
     
 }
 .button-spacer:hover{
-    background:rgb(226, 196, 247) !important;
+    background:white !important;
     border:1px solid white !important;
+
     
 }
 .contact-me{
@@ -129,6 +134,27 @@ a{
     background: #f0e8fa;
     color:black;
 }
+.icon{
+    display:inline-flex;
+    justify-content: center;
+    transition: transform 0.3 ease-in-out;
+    padding-right: 5px;
+
+   
+}
+.navbar-brand{
+    font-size:20px;
+    font-family:serif;
+    font-weight: 200;
+}
+.source{
+    color:rgb(187, 16, 187);
+    text-decoration: underline;
+}
+.icon:hover{
+    background: white;
+    transform:scale(1.1);
+}
 .contact{
     text-decoration: underline !important;
     
@@ -139,4 +165,138 @@ a{
 
 .nav-link:hover{
     color:#d296f8 !important;
+}
+.github{
+    height:45px;
+    width:45px;
+    margin-top:20px;
+}
+.insta{
+    height:45px;
+    width:45px;
+    margin-top:20px;
+}
+
+@media(max-width:800px){
+    body{
+        margin:100px auto;
+        padding:10px;
+    }
+    h1{
+        font-size:35px;
+    }
+    h3{
+        font-size:25px;
+    }
+    h4{
+        font-size:14px;
+    }
+    img{
+        height:250px;
+        width:250px;
+    }
+    .spacer{
+        height:350px;
+    }
+    .inquiry{
+        height:180px;
+        width:100%;
+
+    }
+    .button{
+        margin-left:0px;
+
+    }
+    .form-control{
+        width:250px;
+        margin:0 auto;
+        padding:10px;
+
+    }
+    .contact-me{
+        width:440px;
+        height:520px;
+        margin:0 auto;
+    }
+    .about{
+        font-size:24px;
+    }
+}
+@media(max-width:980px){
+    .form-control{
+        width:400px;
+        margin:0 auto;
+        padding:10px;
+    }
+    .contact-me{
+        width:540px;
+        margin:0 auto;
+        height:620px;
+    }
+    
+}
+@media(max-width:1020px){
+    .about{
+        font-size:34px;
+    }
+}
+
+
+@media(max-width:578px){
+    body{
+        margin:100px auto;
+        padding:10px;
+        line-height:1.5;
+    }
+    h1{
+        font-size:36px;
+    }
+    h3{
+        font-size:14px;
+    }
+    h2{
+        font-size:16px;
+    }
+    .about{
+        font-size:30px;
+    }
+    h4{
+        font-size:12px;
+    }
+    img{
+        height:200px;
+        width:200px;
+        
+    }
+    .image-project{
+        display:none;
+    }
+    .image{
+        height:290px;
+        width:210px;
+        
+    }
+    .spacer{
+        height:350px;
+    }
+    .inquiry{
+        display:none;
+    }
+    .button{
+        margin-left:0px;
+        padding:10px;
+        width:150px !important;
+        font-size:14px;
+        
+    }
+    .form-control{
+        width:400px;
+        margin:0 auto;
+        padding:10px;
+    }
+    .contact-me{
+        width:450px;
+        height:600px;
+        margin:0 auto;
+    }
 }
